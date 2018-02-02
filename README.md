@@ -34,4 +34,4 @@ Algunas capturas
 ![4](https://user-images.githubusercontent.com/8844134/35748422-49c1c21a-084e-11e8-826e-bf6143705cb9.png)
 ![6](https://user-images.githubusercontent.com/8844134/35748545-a98d766c-084e-11e8-99c6-f4f1c9ce474f.png)
 
-# Trabajo realizado junto a (https://github.com/ObisNoBlan) para la asignatura programacin dispositivos móviles del ciclo superior (DAM)
+# Trabajo realizado junto a (https://github.com/LuisFcoOrtiz) para la asignatura programacin dispositivos móviles del ciclo superior (DAM)
