@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fpnndodnod"
+    tools:context="com.burguer.manrique.restabar.Pedido_Activity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:background="@drawable/cajonestanteriados">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvCajonPedidos"
+                        android:layout_width="329dp"
+                        android:layout_height="81dp"
+                        android:layout_margin="16dp"
+                        android:paddingTop="10dp"
+                        android:scrollbars="horizontal" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvBebidas"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:text="     BEBIDAS          TAPAS"
+                        android:textAlignment="viewStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <GridView
+                        android:id="@+id/grBebidas"
+                        android:layout_width="0dp"
+                        android:layout_height="280dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:columnWidth="50dp"
+                        android:horizontalSpacing="20dp"
+                        android:numColumns="auto_fit"
+                        android:verticalSpacing="20dp" />
+
+                    <GridView
+                        android:id="@+id/grTapas"
+                        android:layout_width="0dp"
+                        android:layout_height="280dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape"
+                        android:columnWidth="50dp"
+                        android:horizontalSpacing="20dp"
+                        android:numColumns="auto_fit"
+                        android:verticalSpacing="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tapas">
+
+                    <TextView
+                        android:id="@+id/tvTapas"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/combinados">
+
+                    <TextView
+                        android:id="@+id/tvCombinados"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="DG"
+        android:title="Configuración">
+
+    </PreferenceCategory>
+    <EditTextPreference
+        android:id="@+id/ipserver"
+        android:defaultValue="127.0.0.1"
+        android:key="ip"
+        android:summary="Indicar la ip del servidor"
+        android:title="Ip Server" />
+</PreferenceScreen>
